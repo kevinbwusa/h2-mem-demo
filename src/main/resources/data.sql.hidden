@@ -1,0 +1,19 @@
+INSERT INTO [SAMS_2020andbeyond] (
+  SupplierName,
+  SapID,
+  AverageScoreColor,
+  AverageScore,
+  EffectiveDate,
+  Sector,
+  Division,
+  Program)
+VALUES (
+  'supplierName1',
+  0,
+  'averageScoreColor',
+  'averageScore',
+  'effectiveDate',
+  'sector',
+  'division',
+  'program'
+);

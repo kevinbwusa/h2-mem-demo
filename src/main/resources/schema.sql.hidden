@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS [dbo].[SAMS_2020andbeyond];
+CREATE TABLE [dbo].[SAMS_2020andbeyond](
+	[SupplierName] [varchar](50) NULL,
+	[SapID] [varchar](20) NULL,
+	[AverageScoreColor] [varchar](50) NULL,
+	[AverageScore] [decimal](9, 2) NULL,
+	[EffectiveDate] [nvarchar](10) NULL,
+	[Sector] [varchar](20) NULL,
+	[Division] [varchar](50) NULL,
+	[Program] [varchar](100) NULL
+);
